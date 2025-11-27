@@ -7,9 +7,6 @@
     - Interface Web Responsiva usando Dash/Plotly.
     - Integração com Google Gemini AI para consultoria agronômica.
     - Controle bidirecional (Envia setpoints para o firmware).
-
-@author [Seu Nome]
-@date 2024
 """
 
 import serial
@@ -434,4 +431,5 @@ if __name__ == '__main__':
         t.start()
     
     # Inicia Servidor Web
+
     app.run(debug=True, port=5000, use_reloader=False)
