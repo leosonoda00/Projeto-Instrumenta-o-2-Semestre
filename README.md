@@ -204,8 +204,9 @@ Tabela `readings` (criada automaticamente):
 - 2 resistores 10k ohm
 - 3 resistores 1k ohm 
 - 3 diodos 1N4007
-- 3 TIPs 122
+- 3 TIP122
 - Regulador 7805
 - Capacitor cerâmico 100nF
 - Capacitor cerâmico 220nF
 - Capacitor eltrolítico 47uF
+
