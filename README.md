@@ -12,6 +12,57 @@ Este repositório contém uma aplicação Python (Dash + Plotly) que:
 
 ---
 
+## Visual do projeto
+
+Imagens do projeto (arquivos localizados em `imagens/`):
+
+**Diagrama de blocos**
+
+![Diagrama de blocos](imagens/diagrama_de_blocos.png)
+
+Diagrama mostrando o fluxo de dados entre sensores, Raspberry Pi Pico e dashboard.
+
+---
+
+**Esquemático elétrico**
+
+![Esquemático elétrico](imagens/esquematico_eletrico.png)
+
+Visão do circuito e conexões principais (sensores, divisores, alimentação).
+
+---
+
+**PCB / Prototipagem**
+
+![PCB / protótipo](imagens/PCB.png)
+
+Imagem do PCB e montagem do protótipo.
+
+---
+
+**Modelo 3D / Gabinete**
+
+![Modelo 3D](imagens/modelo_3d.jpg)
+
+Render ou foto do modelo 3D do gabinete/caixa.
+
+---
+
+**Dashboard (captura de tela)**
+
+![Dashboard em execução](imagens/print_dashboard.png)
+
+Exemplo de tela do dashboard mostrando gráficos em tempo real.
+
+---
+
+**Protótipo montado / projeto final**
+
+![Projeto final](imagens/projeto_final.png)
+
+Foto do projeto final (montado na estufa).
+
+
 ## Estrutura principal
 
 - `app.py` — aplicação principal (dashboard, leitura serial, persistência SQLite, integração com Gemini)
@@ -140,3 +191,21 @@ Tabela `readings` (criada automaticamente):
 - Se tiver problemas com permissões na porta serial no Windows, verifique drivers e o Gerenciador de Dispositivos.
 
 ---
+
+## Lista de Materiais
+- Raspberry pi pico
+- Bomba peristáltica Robocore (12V)
+- Ventoinha (12V)
+- Fita LED(12V)
+- Módulo Bluetooth -> HC05
+- Termistor NTC 103
+- Fotoresistor LDR
+- Sensor de umidade resistivo (com módulo de divisor de tensão)
+- 2 resistores 10k ohm
+- 3 resistores 1k ohm 
+- 3 diodos 1N4007
+- 3 TIPs 122
+- Regulador 7805
+- Capacitor cerâmico 100nF
+- Capacitor cerâmico 220nF
+- Capacitor eltrolítico 47uF
